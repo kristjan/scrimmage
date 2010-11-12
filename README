@@ -1,0 +1,9 @@
+* Run Scrimmage by selecting some lines and hitting <Leader>s
+* A new buffer is opened for you to write a script
+* Your script receives your selection through STDIN
+* Your selection will be replaced by what you print to STDOUT
+* Repeat; the replace happens every time you save the script
+
+Scrimmage's default language is Ruby. You can change this by setting g:scrimmage_default_lang.
+
+First vimscript ever; feedback is heartily welcomed.
