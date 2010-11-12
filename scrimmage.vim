@@ -43,5 +43,3 @@ function! Scrimmage() range
 endfunction
 
 map <Leader>s :call Scrimmage()<CR>
-map <Leader>e :v:errmsg<CR>
-map <Leader>q :qa!<CR>
